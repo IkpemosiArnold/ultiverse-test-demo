@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-export const terminus = localFont({
+const terminus = localFont({
   src: "./fonts/Terminus500.ttf",
   variable: "--font-terminus",
   weight: "500",
 });
 
-export const terminusBold = localFont({
+const terminusBold = localFont({
   src: "./fonts/Terminus700.ttf",
   variable: "--font-terminus-700",
   weight: "700",
