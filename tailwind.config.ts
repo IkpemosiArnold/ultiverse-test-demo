@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -12,7 +13,23 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'main-black-bg': "url('/main-black-bg.png')",
+        'ultiverse-bg': "url('/ultiverse-bg.png')",
+      },
+      backgroundSize :{
+        'tiled':'1920px'
+      },
+      fontFamily: {
+        terminus: ['var(--font-terminus)'],
+        terminusBold : ['var(--font-terminus-700)']
+      },
+      cursor: {
+        custom: 'url("/mouse-clicker.svg") 54 54, auto',
+      },
+      
     },
+    
   },
   plugins: [],
 };
